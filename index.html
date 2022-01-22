@@ -46,7 +46,8 @@
                             </div>
                             <div>
                                 <button id="sbmt" type="submit" class="submit-btn">Submit</button>
-                                <p class="action-left">3 try left</p>
+                                <button id="reset" type="submit" class="reset-btn">Reset</button>
+                                <!-- <p class="action-left">3 try left</p> -->
                             </div>
                         </div>
                     </div>
@@ -93,6 +94,12 @@
                     notmatch.style.display = 'block'
                 }
 
+            })
+            let reset = document.getElementById('reset')
+            reset.addEventListener('click', function () {
+                screenValue = ' '
+                screen.value = screenValue
+                document.getElementById('cal-view').value = " "
             })
 
 
