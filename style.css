@@ -87,6 +87,9 @@ color: #E0B612;
     background: #495BC3;
     color: #fff;
 }
+.action-left{
+    display: none;
+}
 .submit-btn {
     border: none;
     margin-top: 20px;
